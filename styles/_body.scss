@@ -1,0 +1,139 @@
+.box {
+    width: 100%;
+    background-color: lightgreen;
+    height: 250px;
+    margin: 15px 0;
+}
+
+.b-bg__section1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/ipad.jpg");
+}
+
+.b-bg__section2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/iphone.jpg");
+}
+
+.b-bg__section3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/iMac.jpg");
+}
+
+.b-bg__section4 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/iPhone-pro.jpg");
+}
+
+.b-bg__section5 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/watch.jpg");
+}
+
+.b-bg__section6 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/arcade.jpg");
+}
+
+.b-bg__section7 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/ahorra.jpg");
+}
+
+.b-bg__section8 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/airTag.jpg");
+}
+
+.b-bg__section9 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/promo.jpg");
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+}
+
+.b-box {
+    height: 750px;
+    width: 100%;
+    padding-top: 5%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.b-box__h2-black {
+    color: white;
+    font-weight: 600;
+    font-size: 56px;
+    ;
+}
+
+.b-box__h3-black {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.b-box__p {
+    color: #86868b;
+    margin-top: 15px;
+}
+
+.b-box__a {
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.b-box__a:hover {
+    text-decoration: underline;
+}
+
+.b-box__h2-white {
+    color: black;
+    font-weight: 600;
+    font-size: 56px;
+    ;
+}
+
+.b-box__h3-white {
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.b-box__h2-black--small {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.b-box__h2-white--small {
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+}
+
+.b-box__h3-black--small {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.b-box__h3-white--small {
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.b-box__span-red {
+    color: red;
+}

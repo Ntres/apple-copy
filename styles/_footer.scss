@@ -1,0 +1,68 @@
+// INI Footer
+footer {
+    padding-top: 20px;
+}
+
+.b-footer {
+    background-color: #f5f5f7;
+    &__line {
+        border-bottom: 1px solid #d2d2d7;
+        color: #86868b;
+        margin-bottom: 16px;
+        padding-top: 20px;
+    }
+    &__note {
+        color: #86868b;
+        font-size: 12px;
+    }
+    &__h3 {
+        color: #1d1d1f;
+        font-size: 12px;
+    }
+    &__ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    &__a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #515154;
+    }
+    &__a:hover {
+        color: #1d1d1f;
+        text-decoration: underline;
+    }
+    &__copiright {
+        padding-top: 35px;
+        padding-bottom: 20px;
+        ;
+    }
+    &__copiright-p {
+        color: #86868b;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+
+.b-ul {
+    list-style-type: none;
+    &__li {
+        margin-bottom: 10px;
+    }
+}
+
+.b-conditions__link {
+    font-size: 12px;
+    color: #515154;
+    padding-right: 10px;
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+.b-conditions__link:hover {
+    color: #1d1d1f;
+    text-decoration: underline;
+}
+
+// FIN Footer

@@ -1,0 +1,270 @@
+.b-header {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.b-header__nav {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.b-header__a {
+  text-decoration: none;
+  color: #F5F5F7;
+}
+
+.b-header__a:hover {
+  color: white;
+}
+
+.b-icon__apple {
+  font-size: 20px;
+  color: white;
+}
+
+.b-submenu {
+  margin: 16px 0px;
+}
+
+.b-submenu__p {
+  text-align: center;
+  font-size: 12px;
+  color: #1D1D1F;
+  margin: 0;
+}
+
+.b-submenu__a {
+  text-decoration: none;
+}
+
+.b-submenu__a:hover {
+  text-decoration: underline;
+  color: #0d6efd;
+}
+
+.box {
+  width: 100%;
+  background-color: lightgreen;
+  height: 250px;
+  margin: 15px 0;
+}
+
+.b-bg__section1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/ipad.jpg");
+}
+
+.b-bg__section2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/iphone.jpg");
+}
+
+.b-bg__section3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/iMac.jpg");
+}
+
+.b-bg__section4 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/iPhone-pro.jpg");
+}
+
+.b-bg__section5 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/watch.jpg");
+}
+
+.b-bg__section6 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/arcade.jpg");
+}
+
+.b-bg__section7 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/ahorra.jpg");
+}
+
+.b-bg__section8 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/airTag.jpg");
+}
+
+.b-bg__section9 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/promo.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 5%;
+}
+
+.b-box {
+  height: 750px;
+  width: 100%;
+  padding-top: 5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.b-box__h2-black {
+  color: white;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.b-box__h3-black {
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.b-box__p {
+  color: #86868b;
+  margin-top: 15px;
+}
+
+.b-box__a {
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+.b-box__a:hover {
+  text-decoration: underline;
+}
+
+.b-box__h2-white {
+  color: black;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.b-box__h3-white {
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.b-box__h2-black--small {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.b-box__h2-white--small {
+  font-size: 32px;
+  color: black;
+  font-weight: 600;
+}
+
+.b-box__h3-black--small {
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.b-box__h3-white--small {
+  color: black;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.b-box__span-red {
+  color: red;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.b-footer {
+  background-color: #f5f5f7;
+}
+
+.b-footer__line {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  margin-bottom: 16px;
+  padding-top: 20px;
+}
+
+.b-footer__note {
+  color: #86868b;
+  font-size: 12px;
+}
+
+.b-footer__h3 {
+  color: #1d1d1f;
+  font-size: 12px;
+}
+
+.b-footer__ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.b-footer__a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #515154;
+}
+
+.b-footer__a:hover {
+  color: #1d1d1f;
+  text-decoration: underline;
+}
+
+.b-footer__copiright {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.b-footer__copiright-p {
+  color: #86868b;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.b-ul {
+  list-style-type: none;
+}
+
+.b-ul__li {
+  margin-bottom: 10px;
+}
+
+.b-conditions__link {
+  font-size: 12px;
+  color: #515154;
+  padding-right: 10px;
+  border-right: 1px solid #d2d2d7;
+  margin-right: 7px;
+  text-decoration: none;
+}
+
+.b-conditions__link:hover {
+  color: #1d1d1f;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
